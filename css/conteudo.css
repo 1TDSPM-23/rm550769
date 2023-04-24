@@ -21,10 +21,9 @@ GROW/BASIS/SHRINK */
 }
 
 .conteudo table{
-    border-collapse: collapse;
+    border-collapse:  collapse;
 }
 
-.conteudo table th, td{
+.conteudo table th,td{
     border: 2px solid #000000;
-    
 }
