@@ -15,14 +15,41 @@ console.log("Olá mundo");
        //Diferença entre var/let/const
        //var nome1= "Leonardo";
        //let nome2= "Enzo";
-       var nome= "Leonardo";
+       //var nome= "Leonardo";
 
-       if(nome !== ""){
-        let nome= "Edson"
-       }
+       //if(nome !== ""){
+        //let nome= "Edson"
+      // }
 
-       console.log(nome);
+       //console.log(nome);
+
+      //ARRAY e seu métodos
+      let frutas= ["banana", "maçã", "morango", "carambola", "acerola", "laranja"];
+      console.log(frutas);
+      console.table(frutas);
+      console.log(frutas[2]);
+
+      //Adicionar um item ao final do array com o método push(iten);
+      frutas.push("melão");
+      console.log(frutas);
+      //Adicionar um iten no início do array com o método unshift(iten);
+       frutas.unshift("caju");
+       console.log(frutas);
+       //Remover um iten do final do array com o método pop();
+       //frutas.pop();
+       //console.log(frutas);
+       //Remover um iten do início do array com o método shift();
+        frutas.shift();
+        console.log(frutas);
+       //Para localizar um iten dentro do array, utilizando o método indexOf(itenNome);
+       let indice= frutas.indexOf ("morango");
+       console.log("antes da remoção: "+ frutas[indice]);
+       frutas.splice(indice, 2);
+       console.log("depois da remoção: " + frutas[indice]);
+
+       frutas.forEach( (fruta)=>{console.log("olha ele aí: "+ fruta)} );
        
+
        //Regras do const: 
        //1ª regra: Inicializar na declaração
        //const nome3= "Violante";
