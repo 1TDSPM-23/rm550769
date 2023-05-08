@@ -81,3 +81,6 @@ console.log("Olá mundo");
        //console.log(`Resto da divisão: ${parseInt(nr1) % parseInt(nr2)}`);
        //Descobrindo se um numero é par ou ímpar
        //Utilizando operador ternário (?).
+
+       const inputUser = document.getElementById("idNm");
+       console.log(inputUser.value);
